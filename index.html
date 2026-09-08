@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EducaPlus | Plataforma Educativa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="logo">
+            <span>🎓</span>
+            <h2>Educa<span>Plus</span></h2>
+        </div>
+
+        <nav class="menu">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#actividades">Actividades</a>
+            <a href="#analitica">Analítica</a>
+            <a href="#logros">Logros</a>
+            <a href="#perfil">Perfil</a>
+        </nav>
+
+        <button class="login-btn">Iniciar sesión</button>
+
+        <button class="menu-mobile" id="menuMobile">
+            ☰
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==================== INICIO ==================== -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+
+                <p class="welcome">👋 Bienvenido a EducaPlus</p>
+
+                <h1>
+                    Aprende hoy,
+                    <span>construye tu futuro.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Una plataforma educativa diseñada para ayudarte
+                    a aprender, practicar y medir tu progreso de una
+                    manera sencilla e interactiva.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cursos" class="primary-btn">
+                        Comenzar ahora →
+                    </a>
+
+                    <a href="#analitica" class="secondary-btn">
+                        Ver mi progreso
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>250+</strong>
+                        <span>Estudiantes</span>
+                    </div>
+
+                    <div>
+                        <strong>25+</strong>
+                        <span>Cursos</span>
+                    </div>
+
+                    <div>
+                        <strong>95%</strong>
+                        <span>Satisfacción</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="student-card">
+
+                    <div class="student-icon">
+                        🎓
+                    </div>
+
+                    <h3>Tu progreso</h3>
+
+                    <p>¡Sigue así! Has avanzado mucho.</p>
+
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+
+                    <div class="progress-info">
+                        <span>Progreso general</span>
+                        <strong>78%</strong>
+                    </div>
+
+                    <div class="mini-courses">
+
+                        <div>
+                            <span>📐</span>
+                            <p>Matemáticas</p>
+                            <strong>85%</strong>
+                        </div>
+
+                        <div>
+                            <span>🔬</span>
+                            <p>Ciencias</p>
+                            <strong>72%</strong>
+                        </div>
+
+                        <div>
+                            <span>📖</span>
+                            <p>Español</p>
+                            <strong>90%</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== CURSOS ==================== -->
+        <section id="cursos" class="section">
+
+            <div class="section-title">
+
+                <p>APRENDE A TU RITMO</p>
+
+                <h2>Explora nuestros cursos</h2>
+
+                <span>
+                    Encuentra contenidos educativos y mejora tus conocimientos.
+                </span>
+
+            </div>
+
+
+            <div class="courses-grid">
+
+                <article class="course-card">
+
+                    <div class="course-icon math">
+                        📐
+                    </div>
+
+                    <h3>Matemáticas</h3>
+
+                    <p>
+                        Aprende operaciones, álgebra, geometría
+                        y resolución de problemas.
+                    </p>
+
+                    <div class="course-bottom">
+                        <span>12 lecciones</span>
+                        <button>Ver curso →</button>
+                    </div>
+
+                </article>
+
+
+                <article class="course-card">
+
+                    <div class="course-icon science">
+                        🔬
+                    </div>
+
+                    <h3>Ciencias</h3>
+
+                    <p>
+                        Descubre el mundo de la ciencia mediante
+                        actividades interactivas.
+                    </p>
+
+                    <div class="course-bottom">
+                        <span>10 lecciones</span>
+                        <button>Ver curso →</button>
+                    </div>
+
+                </article>
+
+
+                <article class="course-card">
+
+                    <div class="course-icon spanish">
+                        📖
+                    </div>
+
+                    <h3>Español</h3>
+
+                    <p>
+                        Mejora tu lectura, escritura, ortografía
+                        y comprensión.
+                    </p>
+
+                    <div class="course-bottom">
+                        <span>15 lecciones</span>
+                        <button>Ver curso →</button>
+                    </div>
+
+                </article>
+
+
+                <article class="course-card">
+
+                    <div class="course-icon english">
+                        🌎
+                    </div>
+
+                    <h3>Inglés</h3>
+
+                    <p>
+                        Aprende vocabulario y expresiones básicas
+                        para comunicarte en inglés.
+                    </p>
+
+                    <div class="course-bottom">
+                        <span>14 lecciones</span>
+                        <button>Ver curso →</button>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== ACTIVIDADES ==================== -->
+        <section id="actividades" class="section light-section">
+
+            <div class="section-title">
+
+                <p>PRACTICA</p>
+
+                <h2>Actividades educativas</h2>
+
+                <span>
+                    Refuerza tus conocimientos con diferentes actividades.
+                </span>
+
+            </div>
+
+
+            <div class="activities-grid">
+
+                <div class="activity-card">
+                    <span>📝</span>
+                    <h3>Cuestionarios</h3>
+                    <p>Evalúa tus conocimientos con preguntas interactivas.</p>
+                    <button>Comenzar</button>
+                </div>
+
+                <div class="activity-card">
+                    <span>🧩</span>
+                    <h3>Juegos educativos</h3>
+                    <p>Aprende mientras resuelves diferentes desafíos.</p>
+                    <button>Jugar</button>
+                </div>
+
+                <div class="activity-card">
+                    <span>🎯</span>
+                    <h3>Retos diarios</h3>
+                    <p>Completa un nuevo reto cada día y gana puntos.</p>
+                    <button>Ver retos</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== ANALÍTICA ==================== -->
+        <section id="analitica" class="section">
+
+            <div class="section-title">
+
+                <p>ANALÍTICA EDUCATIVA</p>
+
+                <h2>Conoce tu rendimiento</h2>
+
+                <span>
+                    Observa tu progreso y descubre en qué áreas puedes mejorar.
+                </span>
+
+            </div>
+
+
+            <div class="analytics-grid">
+
+                <div class="analytics-card">
+                    <span>👥</span>
+                    <p>Estudiantes</p>
+                    <strong>250</strong>
+                    <small>+12% este mes</small>
+                </div>
+
+                <div class="analytics-card">
+                    <span>📈</span>
+                    <p>Progreso promedio</p>
+                    <strong>78%</strong>
+                    <small>+8% este mes</small>
+                </div>
+
+                <div class="analytics-card">
+                    <span>⭐</span>
+                    <p>Promedio general</p>
+                    <strong>85/100</strong>
+                    <small>Excelente rendimiento</small>
+                </div>
+
+                <div class="analytics-card">
+                    <span>🏆</span>
+                    <p>Cursos completados</p>
+                    <strong>64%</strong>
+                    <small>+15% este mes</small>
+                </div>
+
+            </div>
+
+
+            <div class="chart-area">
+
+                <div class="chart-header">
+                    <div>
+                        <h3>Progreso de aprendizaje</h3>
+                        <p>Últimos 6 meses</p>
+                    </div>
+
+                    <select id="periodFilter">
+                        <option value="6">Últimos 6 meses</option>
+                        <option value="3">Últimos 3 meses</option>
+                        <option value="12">Último año</option>
+                    </select>
+                </div>
+
+
+                <div class="fake-chart">
+
+                    <div class="chart-y">
+                        <span>100%</span>
+                        <span>75%</span>
+                        <span>50%</span>
+                        <span>25%</span>
+                        <span>0%</span>
+                    </div>
+
+                    <div class="bars">
+
+                        <div class="bar-column">
+                            <div class="bar" style="height:55%"></div>
+                            <span>Ene</span>
+                        </div>
+
+                        <div class="bar-column">
+                            <div class="bar" style="height:65%"></div>
+                            <span>Feb</span>
+                        </div>
+
+                        <div class="bar-column">
+                            <div class="bar" style="height:70%"></div>
+                            <span>Mar</span>
+                        </div>
+
+                        <div class="bar-column">
+                            <div class="bar" style="height:75%"></div>
+                            <span>Abr</span>
+                        </div>
+
+                        <div class="bar-column">
+                            <div class="bar" style="height:82%"></div>
+                            <span>May</span>
+                        </div>
+
+                        <div class="bar-column">
+                            <div class="bar" style="height:90%"></div>
+                            <span>Jun</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="subjects">
+
+                <h3>Rendimiento por materia</h3>
+
+                <div class="subject">
+                    <div>
+                        <span>📐 Matemáticas</span>
+                        <strong>85%</strong>
+                    </div>
+                    <div class="subject-progress">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+
+                <div class="subject">
+                    <div>
+                        <span>🔬 Ciencias</span>
+                        <strong>76%</strong>
+                    </div>
+                    <div class="subject-progress">
+                        <div style="width:76%"></div>
+                    </div>
+                </div>
+
+                <div class="subject">
+                    <div>
+                        <span>📖 Español</span>
+                        <strong>89%</strong>
+                    </div>
+                    <div class="subject-progress">
+                        <div style="width:89%"></div>
+                    </div>
+                </div>
+
+                <div class="subject">
+                    <div>
+                        <span>🌎 Inglés</span>
+                        <strong>70%</strong>
+                    </div>
+                    <div class="subject-progress">
+                        <div style="width:70%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== LOGROS ==================== -->
+        <section id="logros" class="section light-section">
+
+            <div class="section-title">
+
+                <p>RECONOCIMIENTO</p>
+
+                <h2>Tus logros</h2>
+
+                <span>
+                    Cada esfuerzo cuenta. ¡Sigue avanzando!
+                </span>
+
+            </div>
+
+
+            <div class="achievements">
+
+                <div class="achievement unlocked">
+                    🥇
+                    <h3>Primer paso</h3>
+                    <p>Completaste tu primera lección.</p>
+                </div>
+
+                <div class="achievement unlocked">
+                    🔥
+                    <h3>Racha de 7 días</h3>
+                    <p>Estudiaste durante 7 días consecutivos.</p>
+                </div>
+
+                <div class="achievement unlocked">
+                    ⭐
+                    <h3>Excelente estudiante</h3>
+                    <p>Obtuviste más de 90 puntos.</p>
+                </div>
+
+                <div class="achievement locked">
+                    🔒
+                    <h3>Maestro</h3>
+                    <p>Completa todos los cursos.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== PERFIL ==================== -->
+        <section id="perfil" class="section">
+
+            <div class="profile">
+
+                <div class="profile-avatar">
+                    👩‍🎓
+                </div>
+
+                <h2>Mi perfil</h2>
+
+                <p>Estudiante EducaPlus</p>
+
+                <div class="profile-data">
+
+                    <div>
+                        <strong>12</strong>
+                        <span>Cursos iniciados</span>
+                    </div>
+
+                    <div>
+                        <strong>8</strong>
+                        <span>Cursos completados</span>
+                    </div>
+
+                    <div>
+                        <strong>350</strong>
+                        <span>Puntos obtenidos</span>
+                    </div>
+
+                </div>
+
+                <button class="primary-btn">
+                    Editar perfil
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            🎓 EducaPlus
+        </div>
+
+        <p>
+            Aprende. Practica. Crece.
+        </p>
+
+        <div class="footer-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#analitica">Analítica</a>
+            <a href="#perfil">Perfil</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 EducaPlus.
+        
+            Oriel Hernández  -  Layla Nuñez
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
